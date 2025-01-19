@@ -4,6 +4,8 @@ Arcade Card Reader is an app for iPhone and Android that allows you to read the 
 
 ## Support
 
-Bugs? Crashes? Questions? Feature requests? **Contact us!**
+Bugs? Crashes? Questions? Suggestions? Feature requests? **Contact us!**
 
 Form goes here
+
+Copyright © 2024 Rem Tech AS. All rights reserved.
