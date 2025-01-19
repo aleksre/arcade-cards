@@ -1,4 +1,4 @@
-# Thanks!
+## Thanks!
 
 Your message has been received.
 
