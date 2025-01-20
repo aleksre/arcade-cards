@@ -216,19 +216,20 @@
           opacity: 1
       }
       textarea.form-control {
-          min-height: calc(1.5em + .75rem + calc(var(--bs-border-width) * 2))
+          min-height: calc(1.5em + .75rem + calc(var(--bs-border-width) * 2));
+          resize: vertical;
       }
       .btn-submit {
-          background-color: rgb(34 148 93);
-          border-color: rgb(86 174 146);
+          background-color: rgb(36 153 87);
       }      
       .btn-submit:hover {
-          background-color: var(--bs-btn-hover-bg);
-          border-color: var(--bs-btn-hover-border-color)
+          background-color: rgb(30 130 74);
       }
       .btn-submit:focus-visible {
-          background-color: var(--bs-btn-hover-bg);
-          border-color: var(--bs-btn-hover-border-color);
+          background-color: rgb(30 130 74);
+      }
+      .btn-submit:active {
+          background-color: rgb(21 88 50);
       }
     </style>
   </head>
@@ -256,6 +257,7 @@
             </div>
           </div>
         </div>
+        <p></p>
         <div class="form-group row">
           <label for="email" class="col-4 col-form-label">E-mail address</label>
           <div class="col-8">
@@ -267,19 +269,21 @@
             </div>
           </div>
         </div>
+        <p></p>
         <div class="form-group row">
           <label for="message" class="col-4 col-form-label">Message</label>
           <div class="col-8">
             <textarea id="message" name="message" cols="40" rows="10" required="required" class="form-control"></textarea>
           </div>
         </div>
+        <p></p>
         <div class="form-group row">
-          <div class="offset-4 col-8">
+          <div class="col-8">
             <button name="submit" type="submit" class="btn btn-submit">Send</button>
           </div>
         </div>
       </form>
-      <div align="center">
+      <div>
         <p><small>(Powered by <a rel="nofollow" href="Un-static Forms">Un-static Forms</a>)</small></p>
       </div>
 
