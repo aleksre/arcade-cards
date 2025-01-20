@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8">
 
-{% seo %}
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,63 +14,56 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-      {% endif %}
-      {% if site.show_downloads %}
-        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
-      {% endif %}
+      <h1 class="project-name">Arcade Card Reader</h1>
+      <h2 class="project-tagline">An iOS & Android app for reading data stored on arcade cards</h2>
+      
+      <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
     </header>
 
     <main id="content" class="main-content" role="main">
 
-  <form method="post" action="https://forms.un-static.com/forms/3f4f9de063f76cd5bd3a6f4ac4ee5e271873e1d5">
-  <div class="form-group row">
-    <label for="name" class="col-4 col-form-label">Name</label>
-    <div class="col-8">
-      <div class="input-group">
-        <div class="input-group-addon">
-          <i class="fa fa-user"></i>
+      <form method="post" action="https://forms.un-static.com/forms/3f4f9de063f76cd5bd3a6f4ac4ee5e271873e1d5">
+        <div class="form-group row">
+          <label for="name" class="col-4 col-form-label">Name</label>
+          <div class="col-8">
+            <div class="input-group">
+              <div class="input-group-addon">
+                <i class="fa fa-user"></i>
+              </div>
+              <input id="name" name="name" placeholder="Please enter your name" type="text" required="required" class="form-control">
+            </div>
+          </div>
         </div>
-        <input id="name" name="name" placeholder="Please enter your name" type="text" required="required" class="form-control">
-      </div>
-    </div>
-  </div>
-  <div class="form-group row">
-    <label for="email" class="col-4 col-form-label">E-mail address</label>
-    <div class="col-8">
-      <div class="input-group">
-        <div class="input-group-addon">
-          <i class="fa fa-envelope"></i>
+        <div class="form-group row">
+          <label for="email" class="col-4 col-form-label">E-mail address</label>
+          <div class="col-8">
+            <div class="input-group">
+              <div class="input-group-addon">
+                <i class="fa fa-envelope"></i>
+              </div>
+              <input id="email" name="email" placeholder="Your e-mail address" type="text" required="required" class="form-control">
+            </div>
+          </div>
         </div>
-        <input id="email" name="email" placeholder="Your e-mail address" type="text" required="required" class="form-control">
+        <div class="form-group row">
+          <label for="message" class="col-4 col-form-label">Message</label>
+          <div class="col-8">
+            <textarea id="message" name="message" cols="40" rows="10" required="required" class="form-control"></textarea>
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="offset-4 col-8">
+            <button name="submit" type="submit" class="btn btn-primary">Send</button>
+          </div>
+        </div>
+      </form>
+      <div align="center">
+        <p><small>(Powered by <a rel="nofollow" href="Un-static Forms">Un-static Forms</a>)</small></p>
       </div>
-    </div>
-  </div>
-  <div class="form-group row">
-    <label for="message" class="col-4 col-form-label">Message</label>
-    <div class="col-8">
-      <textarea id="message" name="message" cols="40" rows="10" required="required" class="form-control"></textarea>
-    </div>
-  </div>
-  <div class="form-group row">
-    <div class="offset-4 col-8">
-      <button name="submit" type="submit" class="btn btn-primary">Send</button>
-    </div>
-  </div>
-</form>
-<div align="center">
-  <p><small>(Powered by <a rel="nofollow" href="Un-static Forms">Un-static Forms</a>)</small></p>
-</div>
 
 
       <footer class="site-footer">
-        {% if site.github.is_project_page %}
-          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
-        {% endif %}
+        <span class="site-footer-owner"><a href="https://github.com/aleksre/arcade-cards">arcade-cards</a> is maintained by <a href="https://github.com/aleksre">aleksre</a>.</span>
         <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
       </footer>
     </main>
