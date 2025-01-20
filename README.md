@@ -18,4 +18,4 @@ Bugs? Crashes? Questions? Suggestions? Feature requests?
 
 
 
-Copyright © 2024 Rem Tech AS. All rights reserved.
+Copyright © 2025 Rem Tech AS. All rights reserved.
