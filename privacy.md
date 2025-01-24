@@ -6,11 +6,11 @@ description: An iOS & Android app for reading data stored on arcade cards
 
 **Privacy Policy**
 
-This privacy policy applies to the Arcade Card Reader app (hereby referred to as "Application") for mobile devices that was created by Aleksander Rem (hereby referred to as "Service Provider") as a Free service. This service is intended for use "AS IS".
+This privacy policy applies to the Arcade Card Reader app (hereby referred to as "Application") for mobile devices that was created by Rem Tech AS (hereby referred to as "Service Provider") as a Free service. This service is intended for use "AS IS".
 
 **What information does the Application obtain and how is it used?**
 
-The Application does not obtain any information when you download and use it. Registration is not required to use the Application.
+The Application does not collect any personally identifiable information during use or installation. Registration is not required to use the Application. If an Amusement IC cards is read into the Application, an external third party lookup service is used to fetch the Access Code. The Application does not collect any other data whatsoever.
 
 **Does the Application collect precise real time location information of the device?**
 
@@ -18,11 +18,11 @@ This Application does not collect precise information about the location of your
 
 **Do third parties see and/or have access to information obtained by the Application?**
 
-Since the Application does not collect any information, no data is shared with third parties.
+Since the Application relies on a third party service to fetch the Amusement IC Access Code, this third party service will have access to the card identifier and all related codes.
 
 **What are my opt-out rights?**
 
-You can stop all collection of information by the Application easily by uninstalling it. You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network.
+You can stop all collection of information by the Application easily by disabling network access on your device (such as enabling Flight Mode). The Application is still usable in this mode, only the Access Code (for Amusement IC cards) will not be displayed.
 
 **Children**
 
@@ -46,4 +46,4 @@ By using the Application, you are consenting to the processing of your informati
 
 **Contact Us**
 
-If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at aleksander.rem@outlook.com.
+If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via [the contact form](./contact.html).
