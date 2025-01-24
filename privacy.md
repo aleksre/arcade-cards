@@ -24,15 +24,9 @@ Since the Application relies on a third party service to fetch the Amusement IC 
 
 You can stop all collection of information by the Application easily by disabling network access on your device (such as enabling Flight Mode). The Application is still usable in this mode, only the Access Code (for Amusement IC cards) will not be displayed.
 
-**Children**
-
-The Application is not used to knowingly solicit data from or market to children under the age of 13.
-
-The Service Provider does not knowingly collect personally identifiable information from children. The Service Provider encourages all children to never submit any personally identifiable information through the Application and/or Services. The Service Provider encourage parents and legal guardians to monitor their children's Internet usage and to help enforce this Policy by instructing their children never to provide personally identifiable information through the Application and/or Services without their permission. If you have reason to believe that a child has provided personally identifiable information to the Service Provider through the Application and/or Services, please contact the Service Provider (aleksander.rem@outlook.com) so that they will be able to take the necessary actions. You must also be at least 16 years of age to consent to the processing of your personally identifiable information in your country (in some countries we may allow your parent or guardian to do so on your behalf).
-
 **Security**
 
-The Service Provider is concerned about safeguarding the confidentiality of your information. However, since the Application does not collect any information, there is no risk of your data being accessed by unauthorized individuals.
+The Service Provider is concerned about safeguarding the confidentiality of your information. However, since the Application does not collect any personal information, there is no risk of personally identifiable data being accessed by unauthorized individuals.
 
 **Changes**
 
