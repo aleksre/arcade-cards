@@ -12,7 +12,7 @@ This privacy policy applies to the Arcade Card Reader app (hereby referred to as
 
 **What information does the Application obtain and how is it used?**
 
-While using the Application, Usage Data may be collected automatically. Usage Data may include information such as your Device's Internet Protocol address (e.g. IP address), device identifiers, operating system, network type, NFC tag information, and other diagnostic data. Registration/Sign-up is not required to use the Application.
+The Service Provider does not collect any date through installation or launching the Application for the first time. Registration or Sign-up is not required to use the Application. While using the Application, Usage Data may be collected automatically. Usage Data may include information such as your Device's Internet Protocol address (e.g. IP address), device identifiers, operating system, network type, NFC tag information, and other diagnostic data.
 
 The data collected is used to provide and maintain the service and functionality of the Application. Specifically, to be able to display the Amusement IC access codes.
 
@@ -26,7 +26,7 @@ Reading data from an Amusement IC card relies on a third party service to fetch 
 
 **What are my opt-out rights?**
 
-You can stop all collection of information by the Application easily by disabling network access on your device (such as enabling Flight Mode). The Application is still usable in this mode, only the Access Code (for Amusement IC cards) will not be displayed.
+You can stop all collection of information by the Application easily by disabling network access on your device (such as enabling Flight Mode). The Application is still usable in this mode, only Amusement IC access codes will not be displayed.
 
 **Security**
 
