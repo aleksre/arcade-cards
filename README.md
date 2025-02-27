@@ -2,6 +2,8 @@
 
 Arcade Card Reader is an app for iPhone and Android that allows you to read the NFC data stored on various arcade cards.
 
+![App cover image with screenshots](./cover-light.png)
+
 ### Supported cards include
 - e-amusement passes (any type)
 - FeliCa-based Travel IC cards such as PASMO, Suica, ICOCA, Octopus, etc.
